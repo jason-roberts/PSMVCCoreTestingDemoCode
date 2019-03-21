@@ -11,3 +11,5 @@ Contains code to demonstrate:
 Watch the course for free with a free trial (subject to availability) : https://pluralsight.pxf.io/c/1392775/503634/7490 (affiliate link).
 
 This demo code is a quick update of the original course demo code updated to ASP.NET Core 2.1
+
+For questions or suggestions regarding this repository/course please use the course discussion page: https://app.pluralsight.com/library/courses/aspdotnet-core-mvc-testing-fundamentals/discussion
