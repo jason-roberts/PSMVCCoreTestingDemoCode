@@ -1,0 +1,51 @@
+﻿@model CreditCards.Core.Model.CreditCardApplication
+
+@{
+    ViewData["Title"] = "Application Complete";
+}
+
+<h2>Application Complete</h2>
+<div class="row">
+    <div class="col-md-3">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Application Details
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <p>Application Decision</p>
+                </div>
+                <div class="panel-body" id="decision">
+                    @Model.Decision
+                </div>
+                <div class="panel-heading">
+                    <p>Application Reference Number</p>
+                </div>
+                <div class="panel-body">
+                    @Model.Id
+                </div>
+
+                <div class="panel-heading">
+                    <p>Name</p>
+                </div>
+                <div class="panel-body">
+                    @Model.FirstName @Model.LastName
+                </div>
+
+                <div class="panel-heading">
+                    <p>Age</p>
+                </div>
+                <div class="panel-body">
+                    @Model.Age
+                </div>
+
+                <div class="panel-heading">
+                    <p>Gross Annual Income</p>
+                </div>
+                <div class="panel-body">
+                    @Model.GrossAnnualIncome
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
